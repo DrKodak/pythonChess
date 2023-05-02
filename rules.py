@@ -247,9 +247,11 @@ def printEmptyGrid():
 
 
 def chess():
-    board = Board()
-    board.renderGrid()
-    board.nextMove()
+    # board = Board()
+    # board.renderGrid()
+    # board.nextMove()
+    piece = Piece()
+    print(piece)
 
 
 chess()
