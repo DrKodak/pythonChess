@@ -50,6 +50,12 @@ def numberedGrid():
     empty_grid.append([BOX_7, BOX_8, BOX_9])
     return empty_grid
 
+def print_numbered_grid(grid):
+    for row in grid:
+        for cell in row:
+            print(cell, end='')
+        print("")
+
 def turn(grid, TURN_PLAYER):
     valid_move = False
     while(not valid_move):
@@ -151,4 +157,5 @@ def game():
     if(check == 3):
         print("Draw!")
 
+print_numbered_grid(numberedGrid())
 game()

@@ -1,0 +1,11 @@
+{
+  "name": "tictactoe-twitter-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "tweepy": "^4.14.0",
+    "vercel": "^29.1.2"
+  },
+  "engines": {
+    "python": "3.10"
+  }
+}
